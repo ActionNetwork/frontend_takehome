@@ -30,7 +30,7 @@ Your goal with this assignment is to write a simple browser-based game in the ja
 * The UI should display current number of points and well as the number of rolls that the player has made during their current game.
 * Before a player rolls, they can optionally use a "power up." A power up allows the player to select if the next roll will be an even or an odd number. The player can only use this power up twice during a given game.
 * A player only "wins" when their score sums exactly to 50. For example, if a player has 45 points, they need a 5 to win. A 6 will not count. (Up to you if overshooting the 50 point target means the player loses the game and has to start over, or the roll is simply thrown out, while adding to their roll count, and they are able to try again to get the "right" number to win.)
-* After the player wins their name is added to the "high score" board. The high score board should keep track of the 5 best scores.
+* After the player wins their name is added to the "high score" board. The high score board should keep track of the 5 best scores. It should persist even through page refreshes.
 * If a player beats a high score the UI should congratulate them.
 
 Overall, this assigment aims to get a sense of your coding skill and comfort with modern frontend practices. As such, while we know that this can be implemented in a single javascript file, we are looking for a solution which demonstrates basic state tracking, use of discrete components, and design pattern best practices. As noted above, we do expect you to use at least one framework to organize your app.
